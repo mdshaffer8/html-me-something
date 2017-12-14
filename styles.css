@@ -1,0 +1,146 @@
+
+body {
+    background-color: #fff;
+    color: #444;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+h1 {
+	font-size: 2.35em;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+h3 {
+	font-size: 1.35em;
+}
+
+h4 {
+	font-size: 1.1em;
+}
+
+h5 {
+	font-size: 0.9em;
+}
+
+h6 {
+	font-size: 0.7em;
+}
+
+#header {
+    background: #1c1c1c;
+    height: 4.25em;
+    width: 100%;
+    color: #ffffff;
+    padding-top: 3em;
+}
+
+#header .header-logo {
+    left: 1.25em;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25em;
+    margin: 0;
+    padding-left: 30px;
+
+}
+
+#header .header-logo strong {
+    font-weight: 700;
+}
+
+#banner {
+	background-color: #3498db;
+	color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+	padding: 10em 4em 9em 4em;
+}
+
+section .container {
+    clear: both;
+    width: 100%;
+}
+
+article {
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.left {
+    height: 700px;
+    width: 50%;
+    float: left;
+}
+
+.right {
+    height: 700px;
+    width: 50%;
+    float: left;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.style1 {
+	background-color: #fff;
+	color: #444;
+}
+
+.style1.invert {
+    background-color: #7AB94F;
+    color: rgba(255,255,255,0.75);
+}
+
+.style2 {
+	background-color: #fff;
+	color: #444;
+}
+
+.invert.style2 {
+    background-color: #5B81CA;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.style3 {
+	background-color: #fff;
+	color: #444;
+}
+
+.invert.style3 {
+    background-color: #2C404C;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#footer {
+    padding: 2em 0 1em 0;
+	background: #1c1c1c;
+	text-align: center;
+}
+
+.copyright {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 0.9em;
+    line-height: 6em;
+}
+
+@media screen and (max-width: 400px) {
+    .left, .right {
+        float: none;
+        margin-right: 0;
+        width: 100%;
+        border: 0;
+        border-bottom: 2px solid #000;
+    }
+
+    img {
+        height: 350px;
+    }
+}
