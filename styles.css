@@ -134,15 +134,20 @@ img {
 @media screen and (max-width: 400px) {
     .left, .right {
         float: none;
-        margin-right: 0;
         width: 100%;
-        border: 0;
         border-bottom: 2px solid #000;
         height: auto;
     }
 
     img {
         height: auto;
-        width: 100%;
+    }
+
+    #banner {
+        padding: 5em 2em 4.5em 2em;
+    }
+
+    #header {
+        padding-bottom: 2em;
     }
 }
