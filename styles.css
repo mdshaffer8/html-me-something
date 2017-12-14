@@ -138,9 +138,11 @@ img {
         width: 100%;
         border: 0;
         border-bottom: 2px solid #000;
+        height: auto;
     }
 
-    /*img {*/
-        /*object-fit: cover;*/
-    /*}*/
+    img {
+        height: auto;
+        width: 100%;
+    }
 }
