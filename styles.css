@@ -2,7 +2,7 @@
 body {
     background-color: #fff;
     color: #444;
-    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-family: "Lato", Arial, sans-serif;
     font-size: 1.2em;
     font-weight: 300;
     line-height: 1.75;
@@ -16,25 +16,10 @@ h2 {
 	font-size: 1.75em;
 }
 
-h3 {
-	font-size: 1.35em;
-}
-
-h4 {
-	font-size: 1.1em;
-}
-
-h5 {
-	font-size: 0.9em;
-}
-
-h6 {
-	font-size: 0.7em;
-}
 
 #header {
     background: #1c1c1c;
-    height: 4.25em;
+    height: 4;
     width: 100%;
     color: #ffffff;
     padding-top: 3em;
@@ -54,7 +39,7 @@ h6 {
 }
 
 #banner {
-	background-color: #3498db;
+	background-color: #1f7ab8;
 	color: rgba(255, 255, 255, 0.75);
 	text-align: center;
 	padding: 10em 4em 9em 4em;
@@ -135,7 +120,6 @@ img {
     .left, .right {
         float: none;
         width: 100%;
-        border-bottom: 2px solid #000;
         height: auto;
     }
 
